@@ -1,0 +1,8 @@
+name: Souls
+version: '${version}'
+main: me.lithid.souls.Souls
+api-version: '1.20'
+depend: [WorldEdit, WorldGuard]
+commands:
+  souls:
+    description: A general purpose command for the souls plugin

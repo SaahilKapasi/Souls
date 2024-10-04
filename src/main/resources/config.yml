@@ -1,0 +1,30 @@
+defaultSouls: 3
+
+soulsRegenTime: 10800
+
+blacklistedRegions:
+  - spawn
+
+messages:
+  deathLives: '<red>You died and now have <dark_red>%lives% soul(s) <red>left! If you die with no souls you will lose your items!'
+  deathNoLives: '<red>You died with no souls and lost your items!'
+  soulRestored: '<green>Enough time has passed and you feel your soul healing, you now have <dark_green>%lives% <green>souls.'
+  souls: '<green>You have <dark_green>%lives% <green>souls.'
+
+titles:
+  deathLives:
+    title: '<dark_red>You died!'
+    subtitle: '<red>You have <dark_red>%lives% <red>lives left!'
+  deathNoLives:
+    title: '<dark_red>You died!'
+    subtitle: '<red>You had no souls left so you lost your items!'
+  soulRestored:
+    title: '<green>You feel your soul healing.'
+    subtitle: '<green>You now have <dark_green>%lives% <green>souls.'
+
+database:
+  host: localhost
+  port: 3306
+  user: root
+  password: ""
+  name: souls
